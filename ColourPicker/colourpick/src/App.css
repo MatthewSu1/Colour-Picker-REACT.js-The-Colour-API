@@ -1,0 +1,102 @@
+body{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+}
+
+.inner-container {
+  display: flex;
+}
+.clouds{
+  object-fit: cover;
+}
+
+.left-column {
+  border: 1px solid rgb(168, 168, 168);
+  margin-right: 50px;
+  height: 500px;
+  width: 700px;
+  padding: 20px;
+  border-radius: 17px;
+}
+
+.right-column {
+  border: 1px solid rgb(168, 168, 168);
+  margin-left: 50px;
+  height: 500px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.right-column div{
+
+  height: 45%;
+}
+.right-column-upper{
+  margin-bottom: 45px;
+  background-color: rgb(240, 239, 239);
+}
+.right-top-inner{
+  display: flex;
+}
+
+.colour-button-hex{
+  width: 22%;
+  margin: 10px;
+  border-radius: 15px;
+  border:none;
+}
+.hex-code-box{
+  margin: 10px;
+  width: 37.5%;
+  margin-top: 40px;
+  font-size: 15px;
+}
+.rgb-code-box{
+  width: 60%;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 80px;
+
+}
+
+.right-bottom{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25%;
+}
+.upload{
+  position: relative;
+  padding: 11px 16px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  
+}
+.upload input[type="file"]{
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.openpicker{
+  border: 0;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin-top: 15px;
+  color: white;
+}
+
